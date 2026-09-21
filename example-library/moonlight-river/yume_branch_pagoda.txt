@@ -1,0 +1,3 @@
+night lake, woman in flowing robe on rocky shore, pagoda on cliff, giant full moon, pine and sakura, watercolor japanese aesthetic
+Negative prompt: blurry, extra fingers, watermark, lowres, deformed, text artifacts
+Steps: 30, Sampler: Euler a, CFG scale: 6, Seed: 990011, Size: 768x1152, Model: animaPencil-XL

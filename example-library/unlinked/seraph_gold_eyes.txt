@@ -1,0 +1,3 @@
+close-up anime portrait, white silver hair, luminous gold eyes, round glasses, black glove shushing pose, black feathers, gold sparks
+Negative prompt: blurry, extra fingers, watermark, lowres, deformed, text artifacts
+Steps: 40, Sampler: Euler a, CFG scale: 8, Seed: 550012, Size: 832x1216, Model: animaPencil-XL

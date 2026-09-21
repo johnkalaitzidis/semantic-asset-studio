@@ -1,0 +1,3 @@
+sci-fi planetary outpost diorama, orange rocky terrain, retro CRT station, tiny explorers, multi-moon sky, tilt-shift miniature
+Negative prompt: blurry, extra fingers, watermark, lowres, deformed, text artifacts
+Steps: 30, Sampler: Euler a, CFG scale: 5, Seed: 101001, Size: 768x1152, Model: animaPencil-XL

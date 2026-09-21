@@ -1,0 +1,3 @@
+flooded ivy street, wooden houses, lily pads, lone rowboat, god rays, golden hour, nature reclaimed canal
+Negative prompt: blurry, extra fingers, watermark, lowres, deformed, text artifacts
+Steps: 28, Sampler: Euler a, CFG scale: 5.5, Seed: 101003, Size: 768x1152, Model: animaPencil-XL

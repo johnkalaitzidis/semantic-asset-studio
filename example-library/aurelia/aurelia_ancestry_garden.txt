@@ -1,0 +1,3 @@
+anime girl, long blonde hair, side braid with white ribbons, white sundress, garden twilight, lens flare, profile view, serene lighting
+Negative prompt: blurry, extra fingers, watermark, lowres, deformed, text artifacts
+Steps: 32, Sampler: Euler a, CFG scale: 6, Seed: 441829, Size: 832x1216, Model: animaPencil-XL

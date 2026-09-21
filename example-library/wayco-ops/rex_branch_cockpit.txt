@@ -1,0 +1,3 @@
+cyberpunk man, white visor helmet, red glow, hooded parka, cockpit interior, handheld device, cyan ceiling light, cinematic
+Negative prompt: blurry, extra fingers, watermark, lowres, deformed, text artifacts
+Steps: 32, Sampler: Euler a, CFG scale: 6, Seed: 778899, Size: 832x1216, Model: realisticVision-v6
