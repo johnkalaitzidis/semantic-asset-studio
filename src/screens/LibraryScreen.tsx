@@ -26,8 +26,8 @@ export function LibraryScreen() {
   );
 
   return (
-    <div className="flex h-full flex-col">
-      <div className="flex items-end justify-between px-5 pb-3 pt-4">
+    <div className="flex h-full min-h-0 flex-col">
+      <div className="flex shrink-0 items-end justify-between px-5 pb-3 pt-4">
         <div className="min-w-0 flex-1">
           <h1 className="text-[22px] font-semibold tracking-tight">Library</h1>
           <p className="mt-1 text-[12px] text-secondary">
@@ -66,8 +66,8 @@ export function LibraryScreen() {
           </p>
         </div>
       ) : (
-        <div className="min-h-0 flex-1 overflow-y-auto px-5 pb-5 apple-scroll" data-tutorial="library">
-          <div className="grid grid-cols-[repeat(auto-fill,minmax(160px,1fr))] gap-3">
+        <div className="min-h-0 flex-1 overflow-auto px-5 pb-5 pt-1 apple-scroll" data-tutorial="library">
+          <div className="grid grid-cols-[repeat(auto-fill,minmax(160px,1fr))] items-start gap-3">
             {assets.map((asset) => (
               <AssetCard
                 key={asset.id}

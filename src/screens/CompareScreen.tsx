@@ -42,7 +42,7 @@ export function CompareScreen() {
         </p>
       </div>
       {tutorialOpen ? <TutorialPromptSample className="mx-5 mb-3" /> : null}
-      <div className="flex min-h-0 flex-1 gap-3 overflow-x-auto px-5 pb-5 apple-scroll">
+      <div className="flex min-h-0 flex-1 items-start gap-3 overflow-auto px-5 pb-5 pt-1 apple-scroll">
         {selected.map((asset) => (
           <CompareColumn
             key={asset.id}
@@ -95,8 +95,8 @@ function CompareColumn({
 
   return (
     <section className={`flex w-[300px] shrink-0 flex-col rounded-[12px] bg-white/4 ${focused ? "ring-2 ring-blue" : "ring-1 ring-white/8"}`}>
-      <button type="button" onClick={onFocus} className="relative overflow-hidden rounded-t-[12px]">
-        <img src={assetFullSrc(asset)} alt="" className="aspect-square w-full object-cover object-top" />
+      <button type="button" onClick={onFocus} className="relative aspect-square w-full shrink-0 overflow-hidden rounded-t-[12px]">
+        <img src={assetFullSrc(asset)} alt="" className="h-full w-full object-cover object-top" />
         <div className="absolute left-3 top-3">
           <TaxonomyTag role={asset.role} />
         </div>

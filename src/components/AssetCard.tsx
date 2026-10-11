@@ -22,13 +22,13 @@ export function AssetCard({
   const emptyRecipe = !asset.prompt.trim() && !asset.seed;
   return (
     <article
-      className={`group relative aspect-square overflow-hidden rounded-[10px] bg-elevated transition-[transform,box-shadow] duration-150 ${
+      className={`group relative aspect-square rounded-[10px] bg-elevated transition-[transform,box-shadow] duration-150 ${
         selected ? "ring-2 ring-blue" : focused ? "ring-2 ring-white/40" : "ring-1 ring-white/8 hover:ring-white/16"
       }`}
     >
       <button
         type="button"
-        className="absolute inset-0 overflow-hidden bg-black/30 text-left"
+        className="absolute inset-0 overflow-hidden rounded-[10px] bg-black/30 text-left"
         onClick={onSelect}
         aria-pressed={selected}
         aria-label={`Stage ${asset.filename}`}
